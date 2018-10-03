@@ -18,7 +18,7 @@ npm install --save @jcoreio/get-remote-time-offset
 ## `getRemoteTimeOffset(fetchRemoteTime, [options])`
 
 ```js
-import {getRemoteTimeOffset} from 'get-remote-time-offset'
+import {getRemoteTimeOffset} from '@jcoreio/get-remote-time-offset'
 ```
 
 ### `fetchRemoteTime: () => Promise<number>`
