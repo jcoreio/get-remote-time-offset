@@ -1,0 +1,20 @@
+/**
+ * @flow
+ */
+
+export type Options = {
+  numQueries?: ?number,
+  timeBetweenQueries?: ?number,
+  maxRejections?: ?number,
+  timeout?: ?number,
+}
+
+type RemoteTimeResult = {
+  offset: number,
+  latency: number,
+}
+
+declare export function getRemoteTimeOffset(
+  fetchRemoteTime: () => Promise<number>,
+  options?: Options
+): Promise<number>

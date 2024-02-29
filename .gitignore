@@ -1,6 +1,4 @@
-coverage
+/dist
 .nyc_output
 node_modules
-lib
-es
-.eslintcache
+/coverage
